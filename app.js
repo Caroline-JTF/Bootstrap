@@ -15,7 +15,7 @@ function displayYear (){
 
     date = date.getFullYear();
 
-    return copyright.innerText = 'Copyright © ' + date + ' | Bootstrap';
+    return copyright.innerText = date;
 }
 
 displayYear();
